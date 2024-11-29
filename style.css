@@ -1,0 +1,28 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #009688, #80cbc4); /* Gradient from teal to light teal */
+    color: white;
+    padding: 2rem 0;
+}
+
+#nepal-info {
+    background-color: #e0f2f1; /* Very light teal */
+    padding: 2rem 1rem;
+}
+
+footer {
+    background-color: #004d40; /* Dark teal */
+    color: white;
+}
+
+/* Make sure images are responsive */
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
